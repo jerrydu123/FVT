@@ -2,7 +2,7 @@
 
 Source code and checkpoint downloads are distributed separately. The source repository contains no `.pth` files.
 
-**Independent download link: pending upload.** This placeholder will be replaced by the actual hosting URL once the weight package is uploaded.
+**Download: [GitHub weights release](https://github.com/jerrydu123/FVT/releases/tag/weights).** Open the release page and download the checkpoint files or weight package from **Assets**. The source-code archives contain no trained weights.
 
 | Model | Dataset | Download filename | Internal processing size | Size |
 |---|---|---|---|---|
