@@ -11,7 +11,7 @@ The internal processing size applies before model encoding. It does not change t
 
 ## Checkpoint files
 
-Weights are distributed separately from source code. See [Weights](WEIGHTS.md) for the download status and filenames. Place downloaded checkpoints in `weights/`. The original checkpoint names are listed below for traceability:
+Weights are distributed separately from source code in the [GitHub weights release](https://github.com/jerrydu123/FVT/releases/tag/weights), under **Assets**. See [Weights](WEIGHTS.md) for the published filenames, extraction instructions, and checksum verification. Place downloaded checkpoints in `weights/`. The original checkpoint names are listed below for traceability:
 
 - SECOND: `ZhangXiaochen_23e_mIoU73.68_Sek24.24_Fscd63.59_OA87.81.pth`
 - Landsat-SCD: `ZhangXiaochen_49e_mIoU90.06_Sek63.53_Fscd90.17_OA96.60.pth`
