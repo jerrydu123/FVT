@@ -68,7 +68,7 @@ weights/dinov3_vitl16_pretrain_sat493m-eadcf0ff.pth
 
 Training requires an explicit path to the appropriate DINOv3 initialization file (ViT-L/16 for Full or ViT-S/16 for Tiny). An invalid path raises an error rather than silently downloading a different initialization. ResNet-34 uses torchvision ImageNet initialization and may download it on first training run. Evaluation and prediction initialize both branches without downloading weights, then strictly load a complete FVT or FVT-Tiny state dictionary.
 
-Datasets and trained weights are distributed separately from this source repository. The four validated checkpoint files, their configurations, and the independent download entry are listed in [Weights](docs/WEIGHTS.md). The actual hosting link is pending upload; no public weight download is available from this source package yet.
+Datasets and trained weights are distributed separately from this source repository. Download the trained FVT and FVT-Tiny checkpoints from the [GitHub weights release](https://github.com/jerrydu123/FVT/releases/tag/weights), under **Assets**. The four validated checkpoint filenames, configurations, placement instructions, and checksum verification steps are listed in [Weights](docs/WEIGHTS.md).
 
 ## Training
 
