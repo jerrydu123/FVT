@@ -13,7 +13,7 @@ All four publication checkpoint files pass strict loading. The final release `tr
 
 Full SECOND and Tiny SECOND reproduce all four paper metrics to two decimal places. Tiny Landsat also matches to two decimals; Full Landsat OA rounds to 97.12 versus the paper's 97.11, while the other three metrics match. Both Landsat runs use the 476 pairs available locally, compared to 477 described in the paper. These are checkpoint inference validations, not new training runs.
 
-The weight files are packaged separately from the source ZIP. The independent download URL is pending upload to the author's chosen host. See [Weights](WEIGHTS.md).
+The weight files are distributed separately from the source ZIP through the [GitHub weights release](https://github.com/jerrydu123/FVT/releases/tag/weights). See [Weights](WEIGHTS.md) for filenames, placement instructions, and checksum verification.
 
 ## Tiny synchronization (2026-11-10)
 
