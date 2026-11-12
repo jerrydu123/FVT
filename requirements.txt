@@ -1,0 +1,11 @@
+# Install a matching torch/torchvision build for your CUDA environment first.
+# The environment used for lightweight validation is recorded in docs/VALIDATION.md.
+torch>=2.3
+torchvision>=0.18
+numpy>=1.24
+scipy>=1.10
+scikit-image>=0.20
+Pillow>=9
+opencv-python>=4.8
+matplotlib>=3.7
+tensorboardX>=2.6
